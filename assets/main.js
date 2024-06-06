@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
     const content = 'We are simply human beings';
-    const textEle = document.getElementById('text');
+    const textEle = document.getElementById('typing');
     const cursorEle = document.getElementById('cursor');
     let charIndex = 0;
 
