@@ -14,7 +14,6 @@ main {
 
 .typewriter {
     overflow: hidden;
-    white-space: nowrap;
 }
 
 .cursor {
