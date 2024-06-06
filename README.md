@@ -1,2 +1,2 @@
 # humansbehindkeyboards.github.io
-We are simply humans|
+We are simply human beings|
