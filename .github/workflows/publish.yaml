@@ -29,6 +29,8 @@ jobs:
     steps:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3.0.1
+        with:
+          path: .
 
   # Deployment job
   deploy:
