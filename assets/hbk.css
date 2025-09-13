@@ -13,7 +13,7 @@ main {
     min-height: 100%;
 }
 
-nav {
+.backdrop-blur-20 {
     backdrop-filter: blur(20px);
 }
 
