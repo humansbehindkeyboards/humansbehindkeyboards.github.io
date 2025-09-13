@@ -11,11 +11,12 @@ document.addEventListener("DOMContentLoaded", () => {
             cursorEle.classList.remove('cursor__blink');
             textEle.textContent += content.charAt(charIndex);
             charIndex++;
-            setTimeout(type, 120);
+            setTimeout(type, 60);
         } else {
             cursorEle.classList.add('cursor__blink');
         }
     };
 
     type();
+
 });
