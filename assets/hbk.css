@@ -18,7 +18,7 @@ main {
 }
 
 .cursor {
-    background-color: rgb(15 23 42);
+    background-color: rgb(155, 155, 155);
     color: transparent;
     width: 4px;
 }
@@ -28,7 +28,7 @@ main {
 
 @keyframes blink {
     0%, 100% {
-        background-color: rgb(15 23 42);
+        background-color: rgb(155, 155, 155);
     }
     50% {
         background-color: transparent;
