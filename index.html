@@ -20,24 +20,26 @@
         <main>
             <nav class="navbar navbar-expand-lg sticky-top backdrop-blur-20" data-bs-theme="dark" aria-label="Navbar">
                 <div class="container">
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hbkNavbar" aria-controls="hbkNavbar" aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse d-lg-flex" id="hbkNavbar">
-                            <a class="navbar-brand col-lg-3 me-0 font-monospace" href="#">⌨️</a>
-                            <ul class="navbar-nav col-lg-6 justify-content-lg-center">
-                                <li class="nav-item">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#hbkNavbar" aria-controls="hbkNavbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-lg-flex" id="hbkNavbar">
+                        <a class="navbar-brand col-lg-3 me-0 font-monospace" href="#">⌨️</a>
+                        <ul class="navbar-nav col-lg-6 justify-content-lg-center">
+                            <li class="nav-item">
                                 <a class="nav-link" href="#interests">Interests</a>
                             </li>
-                                </li>
-                            </ul>
-                            <div class="d-lg-flex col-lg-3 justify-content-lg-end">
-                                <!-- <button class="btn btn-primary">Button</button> -->
-                                <a href="https://github.com/humansbehindkeyboards"><i data-feather="github"></i></a>
-                            </div>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#humans">Humans</a>
+                            </li>
+                        </ul>
+                        <div class="d-lg-flex col-lg-3 justify-content-lg-end">
+                            <!-- <button class="btn btn-primary">Button</button> -->
+                            <a href="https://github.com/humansbehindkeyboards"><i data-feather="github"></i></a>
                         </div>
                     </div>
-                </nav>
+                </div>
+            </nav>
             <div class="container">
                 <div class="px-4 py-5 my-5 text-center">
                     <span class="d-block mx-auto mb-4 display-2">⌨</span>
@@ -60,44 +62,56 @@
             </div>
             <div class="container-fluid bg-wiggle py-5">
                 <div class="container px-4 py-4 backdrop-blur-5 rounded">
-                <a id="interests">
+                    <a id="interests">
                         <h2 class="pb-2 display-4">Our Interests</h2>
-                </a>
-                <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-                    <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark rounded bg-gradient fs-2 mb-3 p-2">
-                            <i data-feather="github"></i>
-                        </div>
-                        <h3 class="fs-2 text-light">Open Source</h3>
-                        <p>
-                            Open source is all about sharing, learning, and building cool stuff together. And we love it!
-                        </p>
+                    </a>
+                    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                        <div class="feature col">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark rounded bg-gradient fs-2 mb-3 p-2">
+                                <i data-feather="github"></i>
+                            </div>
+                            <h3 class="fs-2 text-light">Open Source</h3>
+                            <p>
+                                Open source is all about sharing, learning, and building cool stuff together. And we love it!
+                            </p>
                             <a href="#" class="icon-link visually-hidden">Call to action <i data-feather="arrow-right-circle"></i></a>
-                    </div>
-                    <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark rounded bg-gradient fs-2 mb-3 p-2">
-                            <i data-feather="server"></i>
                         </div>
-                        <h3 class="fs-2 text-light">Homelabs</h3>
-                        <p>
-                            Infrastructure, networking, virtualisation, containerisation and Kubernetes? These are all topics that we love to talk about.
-                        </p>
+                        <div class="feature col">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark rounded bg-gradient fs-2 mb-3 p-2">
+                                <i data-feather="server"></i>
+                            </div>
+                            <h3 class="fs-2 text-light">Homelabs</h3>
+                            <p>
+                                Infrastructure, networking, virtualisation, containerisation and Kubernetes? These are all topics that we love to talk about.
+                            </p>
                             <a href="#" class="icon-link visually-hidden">Call to action <i data-feather="arrow-right-circle"></i></a>
-                    </div>
-                    <div class="feature col">
-                        <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark rounded bg-gradient fs-2 mb-3 p-2">
-                            <i data-feather="code"></i>
                         </div>
-                        <h3 class="fs-2 text-light">Software Development</h3>
-                        <p>
-                            From analysing requirements to delivering software. We love the process of bringing ideas to life through working software.
-                        </p>
+                        <div class="feature col">
+                            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-dark rounded bg-gradient fs-2 mb-3 p-2">
+                                <i data-feather="code"></i>
+                            </div>
+                            <h3 class="fs-2 text-light">Software Development</h3>
+                            <p>
+                                From analysing requirements to delivering software. We love the process of bringing ideas to life through working software.
+                            </p>
                             <a href="#" class="icon-link visually-hidden">Call to action <i data-feather="arrow-right-circle"></i></a>
+                        </div>
                     </div>
-                </div>
-                <p class="lead">And much more!</p>
+                    <p class="lead">And much more!</p>
                 </div>
             </div>
+            <div class="container px-4 py-4">
+                <a id="humans">
+                    <h2 class="pb-2 display-4">Human-driven</h2>
+                </a>
+                <p class="lead">
+                    Humans Behind Keyboards is a human-driven space.
+                </p>
+                <div class="row">
+                    <div class="col-md text-center">
+                        
+                    </div>
+                </div>
             </div>
         </main>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
